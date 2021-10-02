@@ -25,3 +25,12 @@ button.btn_favicon {
   background: transparent;
   border: 0;
 }
+.jobsdata {
+  background-color: #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.jobsdata_title {
+  font-weight: 800;
+  font-size: 15px;
+}

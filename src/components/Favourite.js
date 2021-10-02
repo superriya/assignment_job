@@ -11,7 +11,8 @@ const Favourite = ({job_index}) => {
 
     return(
         <div>
-            <button className="btn_favicon" name="btn_fav" onClick={() => setIsFavourite(!isFavourite)}>
+            <button className="btn_favicon" name="btn_fav" 
+            onClick={() => setIsFavourite(!isFavourite)}>
             {
                 isFavourite ? <FaHeart size={20} color="red" /> : <FaHeart size={20} color="gray" />
             }

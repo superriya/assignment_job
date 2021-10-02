@@ -1,5 +1,5 @@
 import './App.css';
-import Jobs from './components/Jobs';
+import ListJob from './components/ListJob';
 
 
 
@@ -7,7 +7,7 @@ function App() {
   
   return (
     <div className="App">
-      <Jobs />
+      <ListJob />
     </div>
   );
 }
