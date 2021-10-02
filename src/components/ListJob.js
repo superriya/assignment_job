@@ -51,7 +51,7 @@ const ListJob = () => {
             <div className="card" width='80%'>
                 <div className="card-body">
                     {
-                        jobData.filter(job_rec => job_rec.job_title && job_rec.reference.toLowerCase().includes(searchText.toLowerCase())).map(record => (
+                        jobData.filter(job_rec => job_rec.job_title.toLowerCase().includes(searchText.toLowerCase()) || job_rec.reference.includes(searchText.toLowerCase())).map(record => (
                             <div className="jobsdata" key={record.job_id}>
                                 <p>
                                     <span className="jobsdata_title">Job Title: </span>
