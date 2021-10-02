@@ -25,8 +25,10 @@ While page loads for first time, all of job ids will have null value for favouri
 
 
 ## code not working in safari browser due to access control checks.(CORS). 
-I've tried below options to resolve the CORS issue, but all options get failed to resolved it.
+I've tried below options with the help of google/stackoverflow to resolve the CORS issue, but all options get failed to resolved it.
 - I've tried to pass "mode": "cors" argument with url.
 - I've tried Configuring the Proxy Manually
 
-## For chrome browser I've used Allow CORS extension  
+## For chrome browser I've used Allow CORS extension. 
+
+#### I'll try to solve. 
